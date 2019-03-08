@@ -16,13 +16,13 @@ export default class Name extends Component {
         console.log('componentWillReceiveProps');
     };
 
-    shouldComponentUpdate(nextProps, nextState) {
-        console.log('shouldComponentUpdate', nextProps, nextState);
-    };
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     console.log('shouldComponentUpdate', nextProps, nextState);
+    // };
 
-    componentDidUpdate(prevProps, prevState) {
-        console.log('componentDidUpdate', prevProps, prevState);
-    };
+    // componentDidUpdate(prevProps, prevState) {
+    //     console.log('componentDidUpdate', prevProps, prevState);
+    // };
 
     
 
